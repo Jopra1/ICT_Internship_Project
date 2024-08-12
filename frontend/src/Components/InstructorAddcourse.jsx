@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
 import axios from 'axios';
 import { useLocation } from 'react-router-dom';
-// import './InstructorAddcourse.css';
+import './InstructorAddcourse.css';
 
 const InstructorAddcourse = () => {
   const [form, setForm] = useState({
