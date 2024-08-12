@@ -1,11 +1,4 @@
-/* General Styles */
-body {
-  font-family: 'Arial', sans-serif;
-  /* background-color: #ececec !important; */
-  margin: 0;
-  padding: 0;
-  color: #333;
-}
+
 
 /* Main Content */
 main {
@@ -15,7 +8,7 @@ main {
 
 main h2 {
   font-size: 2.5rem;
-  color: #f4f4f4e8;
+  color: #000000e8;
   margin-bottom: 20px;
   
 }
@@ -24,17 +17,19 @@ main h2 {
 .courses-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
   gap: 20px;
   justify-content: center;
 }
 
 .course-item {
-  background-color: #ccc9c9dc;
+  background-color: #ffffffdc;
+  border: #000000;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
-  width: calc(25% - 20px);
+
   max-width: 300px;
   text-align: left;
   position: relative;
@@ -90,15 +85,15 @@ main h2 {
 
 /* Create New Button Styles */
 .create-new-button {
-  background: linear-gradient(to right, #e34c3bec, #cb6b17eb);
-  color: #fff !important;
+ 
+  color: #fcfcfc !important;
   border-radius: 20px;
   padding: 10px 20px;
   transition: background 0.3s, transform 0.3s;
 }
 
 .create-new-button:hover {
-  background: linear-gradient(to right, #d34130ec, #c06414eb);
+  
   transform: scale(1.05);
 }
 

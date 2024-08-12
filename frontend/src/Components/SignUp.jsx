@@ -8,7 +8,7 @@ import { Paper } from '@mui/material';
 import Log from './Log';
 import Sign from './Sign';
 
-const paperstyle = { width: 320, margin: "20px auto" };
+const paperstyle = { width: 600, margin: "20px auto" };
 
 const SignUp = () => {
     const [value, setValue] = useState('1');  // Use useState here

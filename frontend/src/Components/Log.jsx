@@ -6,6 +6,7 @@ import Checkbox from '@mui/material/Checkbox';
 import Link from '@mui/material/Link';
 import { useNavigate } from 'react-router-dom'; // Ensure you are using react-router-dom
 import axios from 'axios'; // Ensure axios is installed and imported
+import './SignUp.css';
 
 const Log = () => {
   
@@ -42,10 +43,10 @@ const Log = () => {
     }
   };
 
-  const paperStyle = { padding: '20px 30px', width: 300 };
+  const paperStyle = { padding: '20px 30px', width: 550};
   
   return (
-    <Grid>
+    <Grid >
       <Paper elevation={20} style={paperStyle}>
         <Grid align="center">
           <Avatar></Avatar>

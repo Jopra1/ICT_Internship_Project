@@ -43,7 +43,7 @@ const Sign = () => {
     }
   };
 
-  const paperStyle = { padding: '20px 30px', width: 300 };
+  const paperStyle = { padding: '20px 30px', width: 550 };
   
   return (
     <Grid>

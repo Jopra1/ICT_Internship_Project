@@ -1,5 +1,5 @@
 /* General Styles */
-html, body {
+/* html, body {
     font-family: 'Arial', sans-serif;
     background-color: white;
     background-image: none;
@@ -7,7 +7,7 @@ html, body {
     padding: 0;
     color: #333;
     overflow-x: hidden;
-}
+} */
 
 /* Container */
 .instructor-addcourse-container {
@@ -19,7 +19,7 @@ html, body {
 }
 
 .instructor-addcourse-content {
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly increased opacity */
+    background-color: rgba(255, 255, 255, 0.486); /* Slightly increased opacity */
     padding: 40px; /* Increased padding for a better look */
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -29,7 +29,7 @@ html, body {
 }
 
 .instructor-addcourse-content h2 {
-    color: #e74c3c;
+    color: #000000;
     margin-bottom: 25px;
     font-size: 2.2rem;
     font-weight: bold;
@@ -65,13 +65,13 @@ html, body {
     border-radius: 25px;
     font-size: 1rem;
     cursor: pointer;
-    background: linear-gradient(to right, #e74c3c, #e67e22);
+   background-color: rgb(78, 223, 21);
     color: white;
     transition: background 0.3s, transform 0.3s;
 }
 
 .btn.addcourse-btn:hover {
-    background: linear-gradient(to right, #c0392b, #d35400);
+   
     transform: scale(1.05);
 }
 
