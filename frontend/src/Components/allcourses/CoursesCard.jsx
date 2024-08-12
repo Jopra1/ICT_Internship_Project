@@ -1,4 +1,4 @@
-import React from 'react';
+
 import "./courses.css";
 
 import { coursesCard as coursesData } from "../../dummydata";
